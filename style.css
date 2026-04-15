@@ -13,8 +13,28 @@
               Fonts-Colors
  ---------------------------------*/
 
-.space-grotesk{
+h1, h2, h3, h4, h5, h6{
     font-family: "Space Grotesk", sans-serif;
+    font-weight: 900;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #4A5568;
 }
 
 .inter{
@@ -26,20 +46,31 @@
 }
 
 .complementary-color{
-    color: #F7C7A0
+    color: #F7C7A0;
 }
 
 .text-color{
     color: #4A5568;
 }
 
+.bleu{
+    color: #103571;
+}
+
+.gold{
+    color: #F7C7A0;
+}
+
+.size-16{
+    font-size: 16px;
+}
 /* ------------------------------
             All
  ---------------------------------*/
 
 a{
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
 ul{
@@ -50,6 +81,18 @@ body{
     background-color: #ffffff;
 }
 
+span, li, input{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #4A5568;
+}
+
+.span-h1{
+    font-size: 64px;
+    font-weight: 900;
+    color: #F7C7A0;
+    display: block;
+}
 
 
 
@@ -135,6 +178,10 @@ body{
     align-items: center;
 }
 
+.align_start{
+    align-items: flex-start;
+}
+
 .justify-center{
     justify-content: center;
 }
@@ -185,9 +232,6 @@ body{
     margin-bottom: 128px;
 }
 
-.ml-100{
-    margin-left: 100px;
-}
 .text-center{
     text-align: center;
 }
@@ -202,16 +246,20 @@ body{
     padding-top: 16px;
 }
 
-.pb-32{
-    padding-bottom: 16px;
-}
-
 .pt-32{
     padding-top: 32px;
 }
 
 .pb-32{
     padding-bottom: 32px;
+}
+
+.pt-64{
+    padding-top: 64px;
+}
+
+.pb-64{
+    padding-bottom: 64px;
 }
 
 .pt-128{
@@ -243,7 +291,7 @@ body{
     background-color: #103571;
     color: white;
     padding: 1px;
-    position: sticky;
+    /*position: sticky;*/
     top: 0;
     left: 0;
     width: 100%;
@@ -289,6 +337,11 @@ body{
     justify-content: center;
 }
 
+.btn-mrg{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .btn-blanc{
     padding: 10px 20px;
     background-color: #ffffff;
@@ -303,3 +356,38 @@ body{
 }
 
 
+.pic-3{
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.video{
+    object-fit: cover;
+}
+
+.lien{
+    color: #103571;
+    font-size: 40px;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.font-64{
+    font-size: 64px;
+}
+
+.shadow{
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+
+}
+
+
+.f-bg{
+    background-color: #F7C7A0;
+    color: white;
+}
